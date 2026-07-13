@@ -40,3 +40,22 @@ button:hover{
     background:#f1f1f1;
     min-height:50px;
 }
+
+@media (max-width:600px){
+
+    .container{
+        margin:20px;
+        padding:18px;
+    }
+
+    h1{
+        font-size:28px;
+    }
+
+    input,
+    select,
+    button{
+        font-size:15px;
+    }
+
+}
