@@ -1,4 +1,4 @@
-function ml_KM(ml) {
+function ml_km(ml) {
     if (ml === Infinity || ml === -Infinity) return ml;
     if (!Number.isFinite(ml)) return NaN;
 
