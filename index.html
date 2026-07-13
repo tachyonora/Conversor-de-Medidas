@@ -1,19 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>HTML</title>
-    </head>
-    <body>
-        <h1>Metrics Conversion</h1>
-        <div>
-            <label for="quantity">Input conversion: </label>
-            <input type="number" id="conversion-input" min="0" max="10">
-            <br />
-            <button onclick="convert()">Generate</button>
-            <div id="final-result"></div>
-        </div>
-        <script src="main.js"></script>
-    </body>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Medidas</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="container">
+
+        <header>
+            <h1>Conversor de Medidas</h1>
+            <p>Converta diferentes unidades de comprimento.</p>
+        </header>
+
+        <section id="converter">
+            <div class="form-group">
+    <label for="conversion-input">Valor</label>
+    <input
+        type="number"
+        id="conversion-input"
+        placeholder="Digite um valor">
+</div>
+
+<div class="form-group">
+    <label for="from-unit">De</label>
+    <select id="from-unit">
+        <option value="m">Metro</option>
+        <option value="ft">Pé</option>
+        <option value="km">Quilômetro</option>
+        <option value="mi">Milha</option>
+    </select>
+</div>
+
+<div class="form-group">
+    <label for="to-unit">Para</label>
+    <select id="to-unit">
+        <option value="ft">Pé</option>
+        <option value="m">Metro</option>
+        <option value="mi">Milha</option>
+        <option value="km">Quilômetro</option>
+    </select>
+</div>
+
+<button id="convert-btn">
+    Converter
+</button>
+
+        </section>
+
+        <section id="final-result">
+
+        </section>
+
+    </main>
+
+    <script type="module" src="main.js"></script>
+</body>
 </html>
