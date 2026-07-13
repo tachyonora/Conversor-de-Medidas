@@ -1,10 +1,4 @@
-function mt_ft(mt) {
-    if (mt === Infinity || mt === -Infinity) return mt;
-    if (!Number.isFinite(mt)) return NaN;
-
-    const conversion_ratio = 3.28084;
-    return mt * conversion_ratio;
-}
+import { ft_mt, mt_ft, ml_km, km_ml } from './utils/index.js';
 
 let addResult = result => {
     const answer = document.createTextNode(String(result));
@@ -19,6 +13,6 @@ let addResult = result => {
 
 function convert() {
     const n = document.getElementById('conversion-input').valueAsNumber;
-    const result = mt_ft(n);
+    const result = mt_ft(n);  // may be ft_mt, ml_km or km_ml as well
     addResult(result);
 }
