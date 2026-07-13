@@ -17,6 +17,37 @@
         </header>
 
         <section id="converter">
+            <div class="form-group">
+    <label for="conversion-input">Valor</label>
+    <input
+        type="number"
+        id="conversion-input"
+        placeholder="Digite um valor">
+</div>
+
+<div class="form-group">
+    <label for="from-unit">De</label>
+    <select id="from-unit">
+        <option value="m">Metro</option>
+        <option value="ft">Pé</option>
+        <option value="km">Quilômetro</option>
+        <option value="mi">Milha</option>
+    </select>
+</div>
+
+<div class="form-group">
+    <label for="to-unit">Para</label>
+    <select id="to-unit">
+        <option value="ft">Pé</option>
+        <option value="m">Metro</option>
+        <option value="mi">Milha</option>
+        <option value="km">Quilômetro</option>
+    </select>
+</div>
+
+<button id="convert-btn">
+    Converter
+</button>
 
         </section>
 
