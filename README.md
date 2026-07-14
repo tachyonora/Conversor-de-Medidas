@@ -36,4 +36,9 @@ Um conversor de diferentes medidas feito em JavaScript e completamente portado p
 │       └── mt_km.js
 └── README.md
 ```
+
+Alunos | Usuário
+Tobias Andrade | @tachyonora
+Vitor Henrique Juvino | @devSilvaa
+Ruan Gabriel | RuGabrielS
 > _Todos os arquivos inclusos neste repositório até o presente momento se encontram na Segunda Versão_
