@@ -37,8 +37,8 @@ Um conversor de diferentes medidas feito em JavaScript e completamente portado p
 └── README.md
 ```
 
-Alunos | Usuário
-Tobias Andrade | @tachyonora
-Vitor Henrique Juvino | @devSilvaa
-Ruan Gabriel | RuGabrielS
+## Alunos
+[Tobias Andrade](https://github.com/tachyonora)
+[Vitor Henrique Juvino](https://github.com/devSilvaa)
+[Ruan Gabriel](https://github.com/RuGabrielS)
 > _Todos os arquivos inclusos neste repositório até o presente momento se encontram na Segunda Versão_
